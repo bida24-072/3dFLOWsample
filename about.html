@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About FLOW — a digital agency blending engineering precision with creative flair." />
+  <title>About | FLOW</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="canvas-container"></div>
+
+  <div class="content">
+
+    <!-- HEADER -->
+    <div data-include="header"></div>
+
+    <!-- ============ PAGE HEADER ============ -->
+    <section class="page-header">
+      <div class="container">
+        <span class="pill">Who we are</span>
+        <h1 class="page-title">
+          We are <span class="gradient-text">FLOW</span>
+        </h1>
+        <p class="page-subtitle">
+          Born from a passion for technology and design, we help brands
+          navigate the digital landscape with confidence.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ MISSION / STORY ============ -->
+    <section class="about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2>Our <span class="gradient-text">story</span></h2>
+          <p>
+            FLOW was founded on a simple idea: digital experiences should feel
+            natural, seamless, and human. We combine engineering precision with
+            creative flair to build products that people love to use.
+          </p>
+          <p>
+            Since day one, we've partnered with startups, agencies, and
+            enterprise teams across the globe — delivering websites, 3D
+            experiences, and design systems that convert and scale.
+          </p>
+          <ul class="feature-list">
+            <li><i class="fas fa-check-circle"></i> 10+ years of combined experience</li>
+            <li><i class="fas fa-check-circle"></i> TypeScript, Three.js &amp; modern stacks</li>
+            <li><i class="fas fa-check-circle"></i> Agile and transparent process</li>
+            <li><i class="fas fa-check-circle"></i> Global clients, local feel</li>
+          </ul>
+        </div>
+
+        <div class="about-visual">
+          <i class="fas fa-infinity"></i>
+          <h3>Let's flow together</h3>
+          <p style="color:#b0b8d9;">Your vision, our craft.</p>
+          <a href="contact.html" class="btn btn-primary" style="margin-top:2rem;">
+            <i class="fas fa-handshake"></i> Start a project
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VALUES ============ -->
+    <section class="services">
+      <div class="container">
+        <h2 class="section-title">Our <span class="gradient-text">values</span></h2>
+        <p class="section-subtitle">The principles that guide every project we take on.</p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-lightbulb"></i></div>
+            <h3>Curiosity</h3>
+            <p>We ask questions, explore ideas, and stay on top of emerging tech.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-gem"></i></div>
+            <h3>Craft</h3>
+            <p>Every pixel, every line of code — built with care and intention.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-users"></i></div>
+            <h3>Collaboration</h3>
+            <p>We work as an extension of your team, not just a vendor.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-rocket"></i></div>
+            <h3>Impact</h3>
+            <p>We measure success by the results our work creates for you.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TEAM ============ -->
+    <section class="about">
+      <div class="container">
+        <h2 class="section-title">Meet the <span class="gradient-text">team</span></h2>
+        <p class="section-subtitle">A small, senior team that ships.</p>
+
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="team-avatar"><i class="fas fa-user"></i></div>
+            <h3>Alex Rivera</h3>
+            <p class="team-role">Founder &amp; Creative Director</p>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar"><i class="fas fa-user"></i></div>
+            <h3>Priya Shah</h3>
+            <p class="team-role">Lead Engineer</p>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar"><i class="fas fa-user"></i></div>
+            <h3>Marco Rossi</h3>
+            <p class="team-role">3D &amp; WebGL Specialist</p>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar"><i class="fas fa-user"></i></div>
+            <h3>Yuki Tanaka</h3>
+            <p class="team-role">UX Designer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div data-include="footer"></div>
+  </div>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.128.0/build/three.module.js"
+      }
+    }
+  </script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
